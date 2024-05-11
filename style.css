@@ -1,0 +1,164 @@
+.c{
+    height: 15px;
+    width: 15px;
+}
+.header{
+display: flex;
+}
+.d{
+ border-bottom: 5px solid  #ff3399;
+ border-top: 5px solid  #ff3399;
+  text-align: center;
+  padding-bottom: 5px;
+}
+.ac{
+    font-size: 25px;
+    margin-left: 60px;
+    margin-right: 50px;
+    letter-spacing: .3em;
+}
+.ac:hover{
+    content: '';
+    transition: all 0.3s ease;
+    border-bottom:5px solid black ;
+    visibility: visible;
+}
+.ac:hover::after{
+   visibility: visible;    
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.foot{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+header{
+    background-color: rgb(215, 24, 81);
+}
+.q{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+      margin-left:50px ;    
+      margin-top: 70px;  
+}
+.logo{ 
+    height: 150px;
+    width: 150px;
+}
+.tov{
+    display: flex;
+    justify-content: space-around;
+}
+.to{
+ height: 300px;
+ width: 200px;
+  flex: 1;
+}
+.ca{
+   width: auto;
+}
+.k:hover{
+height: 400px;
+ width: 250px;
+ border:5px solid #ff69b4;
+ box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.k{
+      transition: box-shadow 0.3s  ;
+      margin-bottom: 5px;
+}
+.to::before {
+    display: block;
+    opacity: 0.5;
+    margin-bottom: 10px;
+}
+.product{
+    display: block;
+}
+.my{
+   width: auto; 
+   height: 500px;
+   display:block ;
+   margin-left: 150px;
+}
+.r{
+   display: flex;
+    justify-content: space-around;
+}
+.ra{
+width: auto;
+    height: 300px;
+      margin-left: 25px;
+      margin-bottom: 5px;
+}
+h1{
+    text-align: center;
+    font-family:cursive;
+}
+.bre{
+     display: flex;
+      justify-content: space-around;
+}
+.de{
+   height: 300px;
+ width: 200px;
+   flex: 1;
+   margin-bottom: 5px;
+}
+.a{
+    height: 225px;
+    width: 225px;
+   transition: box-shadow 0.3s  ;
+   padding: 5px;
+
+}
+.a:hover{
+box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.bren{
+    display: flex;
+     justify-content: space-around;
+}
+.de{
+    height: 300px;
+ width: 250px;
+   transition: box-shadow 0.3s  ;
+}
+.s:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+     height: 400px;
+ width: 300px;
+ border: 5px solid  #ffbf80;
+ margin-right: 5px;
+}
+footer{
+  background-color:  rgb(215, 24, 81);
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+li{
+    list-style-type: none;
+}
+.aas{
+    height: 20px;
+    width: 20px;
+}
+.tr{
+    display: flex;
+}
+.gf{
+ color: white;   
+}
+.logo2{
+    display: block;
+     height: 150px;
+    width: 150px;
+    float: right;
+}
